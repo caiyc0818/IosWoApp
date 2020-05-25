@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40F6CA955048853712FCD41F /* libPods-WoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC687325B68C2D11C4AC4E3D /* libPods-WoApp.a */; };
+		FF57B2B5247BCB37009FDA3A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF57B2B3247BCB36009FDA3A /* SecondViewController.m */; };
 		FFB1795D247B61D900CFB260 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB1795C247B61D900CFB260 /* AppDelegate.m */; };
 		FFB17960247B61D900CFB260 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB1795F247B61D900CFB260 /* ViewController.m */; };
 		FFB17963247B61D900CFB260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB17961247B61D900CFB260 /* Main.storyboard */; };
@@ -39,6 +40,8 @@
 		6A089E844A0573379284C732 /* Pods-WoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoApp.release.xcconfig"; path = "Target Support Files/Pods-WoApp/Pods-WoApp.release.xcconfig"; sourceTree = "<group>"; };
 		AC687325B68C2D11C4AC4E3D /* libPods-WoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A93EEB86809775D82AA327 /* Pods-WoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoApp.debug.xcconfig"; path = "Target Support Files/Pods-WoApp/Pods-WoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FF57B2B3247BCB36009FDA3A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FF57B2B4247BCB37009FDA3A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		FFB17958247B61D900CFB260 /* WoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB1795B247B61D900CFB260 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FFB1795C247B61D900CFB260 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,7 +92,6 @@
 				E4A93EEB86809775D82AA327 /* Pods-WoApp.debug.xcconfig */,
 				6A089E844A0573379284C732 /* Pods-WoApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -127,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				FFB1795B247B61D900CFB260 /* AppDelegate.h */,
+				FF57B2B4247BCB37009FDA3A /* SecondViewController.h */,
+				FF57B2B3247BCB36009FDA3A /* SecondViewController.m */,
 				FFB1795C247B61D900CFB260 /* AppDelegate.m */,
 				FFB1795E247B61D900CFB260 /* ViewController.h */,
 				FFB1795F247B61D900CFB260 /* ViewController.m */,
@@ -292,15 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-WoApp-checkManifestLockResult.txt",
 			);
@@ -316,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF57B2B5247BCB37009FDA3A /* SecondViewController.m in Sources */,
 				FFB17960247B61D900CFB260 /* ViewController.m in Sources */,
 				FFB1796B247B61D900CFB260 /* main.m in Sources */,
 				FFB1795D247B61D900CFB260 /* AppDelegate.m in Sources */,
